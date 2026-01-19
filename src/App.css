@@ -1,0 +1,50 @@
+body {
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.money.plus {
+  color: green;
+}
+
+.money.minus {
+  color: red;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+}
